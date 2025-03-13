@@ -1,0 +1,12 @@
+[project]
+name = "reazon-japanese-wav2vec2-large-rs35kh"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "librosa>=0.10.2.post1",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.49.0",
+]
